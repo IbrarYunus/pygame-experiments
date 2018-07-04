@@ -34,7 +34,7 @@ def start():
         clock.tick(60)
         screen.fill((0,0,0))
         # arguments are (surface instance, colour, shape(x-y coords and width and height
-        pygame.draw.rect(screen, colour, pygame.Rect(x,y,60,60))
+        pygame.draw.rect(screen, colour, pygame.Rect(x, y, 10, 10))
 
         # to get key depression statuses:
         # pygame.key.get_pressed()
